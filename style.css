@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1502786129293-79981df4e689?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwMjAzNTU4OQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+img {
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    background: #c7c1c1c9;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    margin:30px 0;
+    gap: 20px;
+}
+
+button  {
+    height: 90px;
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    font-size: 50px;
+    cursor: pointer;
+    transition: opacity  0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+#rock {
+    background: #F0F8FF;
+}
+
+#paper {
+    background: #7FFFD4;
+}
+
+#scissors {
+    background: #BDB76B;
+}
+
+#rock:hover{
+    opacity: 0.7;
+}
+
+#paper:hover{
+    opacity: 0.7;
+}
+
+#scissors:hover{
+    opacity: 0.7;
+}
+
+.your-score {
+    font-size: 23px;
+}
+
+.machine-score {
+    font-size: 20px;
+}
+
+.your-score span {
+    color: blue;
+}
+
+.machine-score span {
+    color: red;
+}
